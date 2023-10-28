@@ -29,11 +29,12 @@ const Navbar = () => {
           </div>
           <div className="options">
             <div className="options">
-              <NavLink className=" text-gray-blue text-">Home</NavLink>
-              <NavLink className=" text-gray-blue text-sm">Services</NavLink>
-              <NavLink className=" text-gray-blue text-sm">About</NavLink>
-              <NavLink className=" text-gray-blue text-sm">FAQ</NavLink>
-              <NavLink className=" text-gray-blue text-sm">Contact</NavLink>
+              <NavLink to="/" className=" text-gray-blue text-">Home</NavLink>
+              <NavLink to="/" className=" text-gray-blue text-sm">Services</NavLink>
+              <NavLink className=" text-gray-blue text-sm" to="/about">About</NavLink>
+              <NavLink to="/medicine" className=" text-gray-blue text-sm">Online Medicine</NavLink>
+              <NavLink to="/contact" className=" text-gray-blue text-sm">Contact</NavLink>
+              <NavLink to="/Edu" className=" text-gray-blue text-sm">Education</NavLink>
             </div>
 
             {userEmail ? (

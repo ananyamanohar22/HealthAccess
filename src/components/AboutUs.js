@@ -24,7 +24,7 @@ const AboutUs = () => {
 
       <h2>Our Team</h2>
       <p>
-        [Your CEO/Leadership Team Names] lead our organization with a wealth of experience and expertise in the healthcare industry. Our medical staff, including doctors, nurses, and support teams, are committed to providing the best care for our patients.
+         lead our organization with a wealth of experience and expertise in the healthcare industry. Our medical staff, including doctors, nurses, and support teams, are committed to providing the best care for our patients.
       </p>
 
       <h2>Quality of Care</h2>
