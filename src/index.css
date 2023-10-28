@@ -7,6 +7,28 @@
 
 }
 
+.calendar{
+  @apply bg-slate-600
+
+}
+.options2{
+  @apply flex gap-3 justify-around
+
+}
+
+.serviceContainer{
+  @apply py-8
+}
+
+.service{
+  @apply hover:bg-primary-black text-white rounded-md text-sm bg-gray-blue flex justify-around
+text-2xl py-10 px-20
+}
+
+.heading{
+  @apply text-4xl py-6 text-center text-black
+}
+
 .options{
   @apply flex gap-3
 }

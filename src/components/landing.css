@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body {
+  margin: 0;
+  font-family: Roboto;
+}
+.home {
+  max-width: 100%;
+  width: 100%;
+  /* background-color: #ffebcd; */
+  height: 500px;
+  background: linear-gradient(#000000,#00000000),url(https://www.cerner.com/ae/-/media/cerner-media-middle-east/blog-images/the-journey-to-healthcare-transformation.jpg?vs=1);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.home_btn {
+  color: white;
+  background-color: rgb(211, 158, 58);
+  padding: 10px 20px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.home_details {
+  width: 20%;
+  margin-left: 70%;
+  /* margin-top: 20px; */
+  height: 400px;
+  font-size: 30px;
+  padding-top: 80px;
+  color: #fff;
+}
+.home_details p {
+  font-size: 18px;
+}
