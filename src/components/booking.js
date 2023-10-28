@@ -6,7 +6,9 @@ import getDay from 'date-fns/getDay';
 // import enUS from 'date-fns/locale/en-US'
 // import 'react-big-calendar/lib/css/react-big-calender.css';
 import React, { useState } from 'react';
+
 import DatePicker from 'react-date-picker';
+
 
 const locales = {
   "en-US": require("date-fns/locale/en-US")
@@ -56,4 +58,6 @@ function Booking() {
   );
 }
 
+
 export default Booking;
+
