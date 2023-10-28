@@ -35,6 +35,7 @@ const Navbar = () => {
               <NavLink to="/medicine" className=" text-gray-blue text-sm">Online Medicine</NavLink>
               <NavLink to="/contact" className=" text-gray-blue text-sm">Contact</NavLink>
               <NavLink to="/Edu" className=" text-gray-blue text-sm">Education</NavLink>
+              <NavLink to="/bookingPage" className=" text-gray-blue text-sm">Book Appointment</NavLink>
             </div>
 
             {userEmail ? (
